@@ -1,6 +1,6 @@
-
 .title {
-    color:crimson;
+    color:rgb(66, 66, 66);
+    
 }
 
 .form {
@@ -8,4 +8,10 @@
     flex-direction: column;
     gap: 16px;
     width: 500px;
+
+    @media (max-width: 600px) {
+        &{
+            width: 300px;
+        }
+    }
 }

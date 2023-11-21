@@ -41,7 +41,7 @@ const AuthForm = ({formType, handleModalClose}) => {
 
   return (
     <>
-      <Typography sx={{mb: 4}} variant="h3" className={styles.title}>
+      <Typography sx={{mb: 4}} variant="h5" className={styles.title}>
         {isRegisterFormType ? 'Register' : 'Login'}
       </Typography>
 
